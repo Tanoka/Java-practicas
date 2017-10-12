@@ -37,11 +37,15 @@ class Collections {
 			System.out.print(iter.next()+",");
 		}
 
+		System.out.println("\nRecorrer ArrayList con for each");
+		for (String st: arli) {
+			System.out.print(st+",");
+		}
+
 		//usando toArray. Hay dos formas. Con la segunda forma ya viene con el tipo correcto
 		Object[] miob = arli.toArray();
 		String[] miar = arli.toArray(new String[arli.size()]);
-		
+	
+		System.out.println("");	
 	}
-
-
 }
