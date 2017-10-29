@@ -1,4 +1,12 @@
-### Threads. Concurrencia
+### MultiThreaded. Programación Multihilo
+* interface Runnable
+* Abstract Thread
+* métodos Thread: start(), join(), sleep(), currentThread()
+* método run()
+* synchronized métodos y bloque
+* Comunicación entre threads: wait(), notify(), notifyAll()
+* DeadLock
+
 
 ### JUnit
 
